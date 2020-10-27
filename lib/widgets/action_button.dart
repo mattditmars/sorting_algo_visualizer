@@ -50,7 +50,7 @@ class _ActionButtonState extends State<ActionButton> {
             children: <Widget>[
               Text(
                 this.widget.isSort ? "SORT" : "RANDOMIZE",
-                style: Theme.of(context).textTheme.title.copyWith(
+                style: Theme.of(context).textTheme.headline6.copyWith(
                     foreground: Paint()
                       ..style = PaintingStyle.stroke
                       ..strokeWidth = 3
@@ -58,7 +58,7 @@ class _ActionButtonState extends State<ActionButton> {
               ),
               Text(
                 this.widget.isSort ? "SORT" : "RANDOMIZE",
-                style: Theme.of(context).textTheme.title,
+                style: Theme.of(context).textTheme.headline6,
               )
             ],
           ),

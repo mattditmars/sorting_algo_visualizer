@@ -1,16 +1,19 @@
 # sorting_algo_visualizer
 
-A new Flutter project.
+A simple app built with Flutter to demonstrate how the different sorting algorithms work visually!
 
-## Getting Started
+Currently implemented algorithms:
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
 
-This project is a starting point for a Flutter application.
+## Example
 
-A few resources to get you started if this is your first Flutter project:
+![Sorting example](sorting.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## How to Run
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repo
+2. Follow the Flutter installation steps found [here](https://flutter.dev/docs/get-started/install).
+3. Run the command `flutter run --release`
